@@ -1,0 +1,10 @@
+android {
+    signingConfigs {
+        release {
+            storeFile file('/home/user/keystore/android.key')
+            storePassword "password"
+            keyAlias 'Android App Key'
+            keyPassword "password"
+        }
+    }
+}

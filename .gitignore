@@ -41,5 +41,4 @@ proguard-project.txt
 /jni/armeabi-v7a/
 
 .gradle
-gradle/
 gradlew*

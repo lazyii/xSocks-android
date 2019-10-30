@@ -61,7 +61,8 @@ def appendVersionNameVersionCode(variant, output, defaultConfig) {
         versionName += "-beta"
     }
     def file = output.outputFile
-    output.outputFile = new File(file.parent, "xSocks.apk".replace(".apk", "-v" + versionName + ".apk"))
+    output.outputFileName = "xSocks.apk".replace(".apk", "-v" + versionName + ".apk")
+//    new File(file.parent, "xSocks.apk".replace(".apk", "-v" + versionName + ".apk"))
 }
 
 dependencies {
